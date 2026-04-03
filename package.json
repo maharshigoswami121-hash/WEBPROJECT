@@ -1,0 +1,20 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "This is the term project of internet tools.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maharshigoswami121-hash"
+  },
+  "license": "ISC",
+  "author": "maharshi goswami",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass-builder": "sass --no-source-map scss:css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.99.0"
+  }
+}
