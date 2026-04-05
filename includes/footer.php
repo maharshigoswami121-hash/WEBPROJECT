@@ -3,7 +3,7 @@
         <div class="container px-4">
             <div class="row g-4 mb-4">
             <div class="col-12 col-md-3">
-                    <h3 class="fw-bold mb-3">Premium Collection</h3>
+                    <h3 class="fw-bold mb-3">Channel Merchant</h3>
                     <p style="opacity: 0.7;">
                         Your trusted source for laptops, desktops, PC components, and pro-grade peripherals.
                     </p>

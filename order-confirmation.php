@@ -1,19 +1,20 @@
 <?php
 session_start();
-$title = "Order Confirmation";
-include 'includes/header.php';
 
 $order_number = isset($_SESSION['order_number']) ? $_SESSION['order_number'] : '';
-$order_success = isset($_SESSION['order_success']) ? $_SESSION['order_success'] : false;
+$order_success = !empty($_SESSION['order_success']) && !empty($order_number);
 
-if (!$order_success || empty($order_number)) {
+if (!$order_success) {
     header('Location: index.php');
     exit;
 }
 
-// Clear order session data
+// Clear order session data (one-time display)
 unset($_SESSION['order_success']);
 unset($_SESSION['order_number']);
+
+$title = "Order Confirmation";
+include 'includes/header.php';
 ?>
 
 <div class="min-vh-100 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">

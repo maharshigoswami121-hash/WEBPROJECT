@@ -74,6 +74,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  color: #ffd700;
 }
 .navbar-custom .navbar-toggler:focus {
   outline: none;

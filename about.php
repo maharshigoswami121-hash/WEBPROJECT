@@ -22,9 +22,10 @@ include 'includes/header.php';
         <div class="container px-4">
             <div class="row align-items-center">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-4 fw-bold mb-4">About Premium Collection</h1>
+                    <h1 class="display-4 fw-bold mb-4">About Channel Merchant</h1>
                     <p class="lead mb-0" style="opacity: 0.95;">
-                        Your trusted partner for premium technology and computing solutions since 2010
+                        Your trusted partner for premium technology and computing solutions since 2001
+                    
                     </p>
                 </div>
             </div>
@@ -38,7 +39,7 @@ include 'includes/header.php';
                 <div class="col-lg-10 mx-auto">
                     <h2 class="fw-bold mb-4 text-center" style="font-size: 2.5rem; color: #333;">Our Story</h2>
                     <p class="text-muted mb-3" style="line-height: 1.8; font-size: 1.1rem;">
-                        Founded in 2010, Premium Collection started with a simple mission: to make cutting-edge
+                        Founded in 2001, Channel Merchant started with a simple mission: to make cutting-edge
                         technology
                         accessible to everyone. What began as a small local store has grown into a trusted online
                         destination
